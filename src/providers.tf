@@ -17,13 +17,11 @@ terraform {
 }
 
 provider "kubernetes" {
-  config_path    = var.k8s-config-path
-  config_context = var.k8s-config-context
+  config_path    = "~/.kube/config"
 }
 
 provider "helm" {
   kubernetes {
-    config_path    = var.k8s-config-path
-    config_context = var.k8s-config-context
+    config_path    = "~/.kube/config"
   }
 }
