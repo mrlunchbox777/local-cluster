@@ -1,4 +1,9 @@
 terraform {
+  backend "kubernetes" {
+    secret_suffix  = "tfstate"
+    config_path    = "~/.kube/config"
+  }
+
   required_providers {
     helm = {
       version = "~>2.4.0"

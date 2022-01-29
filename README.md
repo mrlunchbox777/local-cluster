@@ -1,4 +1,4 @@
 # local-cluster
 Local Cluster
 
-- [ ] - set up remote storage
+- [x] - set up remote storage
