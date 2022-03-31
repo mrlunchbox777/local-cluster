@@ -1,7 +1,7 @@
 terraform {
   backend "kubernetes" {
-    secret_suffix  = "tfstate"
-    config_path    = "~/.kube/config"
+    secret_suffix = "tfstate"
+    config_path   = "~/.kube/config"
   }
 
   required_providers {
@@ -17,11 +17,11 @@ terraform {
 }
 
 provider "kubernetes" {
-  config_path    = "~/.kube/config"
+  config_path = "~/.kube/config"
 }
 
 provider "helm" {
   kubernetes {
-    config_path    = "~/.kube/config"
+    config_path = "~/.kube/config"
   }
 }
