@@ -5,3 +5,4 @@ Local Cluster
 - [ ] - set up screeps
 - [ ] - set up persistance
 - [ ] - set up pi hole
+- [ ] - set up minecraft
