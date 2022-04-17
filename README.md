@@ -6,3 +6,4 @@ Local Cluster
 - [ ] - set up persistance
 - [ ] - set up pi hole
 - [ ] - set up minecraft
+- [ ] - set up lostark
